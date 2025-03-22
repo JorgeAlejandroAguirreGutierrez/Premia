@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: manrope, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+
+  .flechita {
+    height: 8px;
+    width: 12px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .btn-outline {
+    padding: 12px 24px;
+    border: 2px solid #8000ff;
+    background-color: transparent;
+    color: #8000ff;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    padding: 12px 24px;
+    background-color: #8000ff;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-outline:hover {
+    background-color: #f3e5ff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6a00cc;
+  }
+  
